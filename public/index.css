@@ -165,6 +165,23 @@ img{
     height: 50px;
     width: 40px;
 }
+@media only screen and (min-width: 600px) {
+    .nav-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .background-title{
+        font-size: 65px;
+        padding-top: 250px;
+    }
+    .background-arrows{
+        margin-top: 12vh;
+        margin-left: 48vw;
+        padding-bottom: 3vw;
+        background-image: url(arrows.png);
+        background-size: 6vw 80px;
+    }
+}
 @keyframes appear{
     0%{
         opacity: 0;

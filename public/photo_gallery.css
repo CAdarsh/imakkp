@@ -178,12 +178,35 @@ img{
     margin-bottom: 10vw;
     padding-left: 20vw;
     border: #333 solid;
-    background-image: url('pexels-photo-208556.jpeg');
+    background-image: url('IMAHALL.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .image-container::after{
+    content: '';
+    top:-5.5vw;
+    left: -5.5vw;
+    position: absolute;
+    width: 90vw;
+    height: 60vw;
+    border: 3px #CE2525 solid;
+    border-radius: 10px;
+    border-style: groove;
+}
+.image-container-1{
+    width: 60vw;
+    position: relative;
+    height: 50vw;
+    margin-bottom: 10vw;
+    padding-left: 20vw;
+    border: #333 solid;
+    background-image: url('pexels-photo-208556.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.image-container-1::after{
     content: '';
     top:-5.5vw;
     left: -5.5vw;
