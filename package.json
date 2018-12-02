@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/CAdarsh/imakkp/issues"
   },
+  "scripts": {
+    "start": "node app.js"
+  },
   "homepage": "https://github.com/CAdarsh/imakkp#readme"
 }
