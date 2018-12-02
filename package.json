@@ -8,7 +8,11 @@
     "express": "^4.16.4"
   },
   "devDependencies": {},
+  "engines": {
+    "node" : "10.13.0"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,9 +23,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CAdarsh/imakkp/issues"
-  },
-  "scripts": {
-    "start": "node app.js"
   },
   "homepage": "https://github.com/CAdarsh/imakkp#readme"
 }
