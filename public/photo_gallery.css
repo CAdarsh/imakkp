@@ -1,0 +1,220 @@
+body,html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+header{
+    font-family: 'Cinzel', sans-serif;
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 25px 16px;
+    color: azure;
+    text-decoration: none;
+    font-family: 'Cardo', sans-serif;
+}
+
+
+.nav-option-container{
+    display: inline-block;
+    float: right;
+    
+}
+.nav-logo{
+    margin-left: 12px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 14px;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    color: azure;
+    font-family: 'Cinzel', serif;
+}
+.nav-container{
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    -webkit-transition: background-image 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
+    background-image: url(7080.png);
+}
+.doctor-container-proper:last-child{
+    padding-bottom: 20px;
+}
+.background{
+   
+    width: 100vw;
+    background-image: url("7080.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center; 
+}
+.background-title{
+    color: aliceblue;
+    font-size: 45px;
+    padding-top: 120px;
+    padding-left: 20px;
+    animation: appear 2s;
+    padding-right: 20px;
+    font-family: 'Cinzel', serif;
+}
+.background-title-small{
+    font-size: 20px;
+}
+.body-title-odd{
+    width: 100vw;
+    height: 80px;
+    font-size: 35.1px;
+    line-height: 44.2px;
+    font-family: roboto;
+    color: #39dfa5;
+    background: linear-gradient(to bottom right,#D62121, #DF1B1B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.body-title{
+    width: 100vw;
+    height: 70px;
+    background-image: url("Asset 2.png");
+    text-align: center;
+    font-size: 38px;
+    padding-top: 25px;
+    letter-spacing: 3px;
+    color: #DF1B1B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Slabo 27px', serif;
+}
+.background-arrows{
+    width: 60vw;
+    height: 100px;
+    margin-top: 8vh; 
+    margin-left: 45vw;
+    padding-bottom: 3vw;
+    background-image: url("arrows.png");
+    background-size: 13vw 80px;
+    background-repeat: no-repeat;  
+}
+
+
+/* middle */
+.doctor-container{
+   
+    width: 100vw;
+    background-color: #FFDCDC;
+}
+.position-title{
+    padding-top: 20px;
+    width: 100vw;
+    color: #DF1B1B;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: #DF1B1B dotted;
+}
+.doctor-container-proper{
+    width: 80vw;
+    margin : 30px 10%;
+    border: #CE2525 solid;
+    border-radius: 8px;
+    margin-bottom: 0;             
+}
+img{
+    margin-left: 26%;
+    height: 180px;
+    width: 140px;
+}
+
+.doctor-name{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cardo', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.write-up{
+    text-align: center;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Cardo' , sans-serif;
+}
+.image-container-with-caption{
+    width: 100vw;
+    padding-left: 10vw;
+    margin-bottom: 40px;
+
+}
+.image-container{
+    width: 60vw;
+    position: relative;
+    height: 50vw;
+    margin-bottom: 10vw;
+    padding-left: 20vw;
+    border: #333 solid;
+    background-image: url('pexels-photo-208556.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.image-container::after{
+    content: '';
+    top:-5.5vw;
+    left: -5.5vw;
+    position: absolute;
+    width: 90vw;
+    height: 60vw;
+    border: 3px #CE2525 solid;
+    border-radius: 10px;
+    border-style: groove;
+}
+.image-caption{
+    font-family: 'Merriweather','sans-serif';
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+}
+.nav-logo{
+    background-image: url('IMA LOGO.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 40px;
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+        padding-top: 90px;
+    }
+    100%{
+        opacity: 1;
+        padding-top: 120px;
+    }
+}
