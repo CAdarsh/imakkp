@@ -1,0 +1,24 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000i\u0000m\u0000a\u0000k\u0000k\u0000p\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAdarsh/imakkp.git"
+  },
+  "author": "adarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAdarsh/imakkp/issues"
+  },
+  "homepage": "https://github.com/CAdarsh/imakkp#readme"
+}
