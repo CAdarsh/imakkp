@@ -12,5 +12,5 @@ app.get("/video_gallery",(req,res) => {
     res.render('video.ejs');
 });
 
-app.listen(3000,console.log('Done'));
-// app.listen(app.get('port'),console.log('Done'));
+// app.listen(3000,console.log('Done'));
+app.listen(app.get('port'),console.log('Done'));
